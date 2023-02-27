@@ -1,22 +1,27 @@
 four stages in file is send to github
 Working Directory --> Staging Area --> Local Repository(File in .git) --> Remote Repository (File in GitHub)
 
-git init
-git status
-git add .
-git add --a //chepter1/2/3 file is add in staging area
-git commit -m "Our Project Commit" //than commit repository area to wroking area
-git status //chepter2.txt is chang of text 
-git diff chepter2.txt // this command to check changes our text file previes file text
-git checkout chepter2.txt //revert text data of previes and chnges is remove
-git log //to check all commit 
-git remote add origin SSHKey//
-git push -u origin main //
-git rm --cached -r . //to all staging area file is remove to staging are 
-touch .gitignore //create gitignore file to ignore particular file in staging area to add command(Local Repository)
-filename.txt//.gitignore file in filename to ignore it 
-*.exe //.gitignore file in .exe file is ignore
-git clone "URL"//URL is from github http link
-git branch newbranchname//create new branch name as newbranchname
-git branch //to show all branch *branch is current working branch
-git checkout branchname//branchname to chnage current working branch
+-->git init
+-->git status
+-->git add .
+-->git add --a //chepter1/2/3 file is add in staging area
+-->git commit -m "Our Project Commit" //than commit repository area to wroking area
+-->git status //chepter2.txt is chang of text 
+-->git diff chepter2.txt // this command to check changes our text file previes file text
+-->git checkout chepter2.txt //revert text data of previes and chnges is remove
+-->git log //to check all commit 
+-->git remote add origin SSHKey//
+-->git push -u origin main //
+-->git rm --cached -r . //to all staging area file is remove to staging are 
+-->touch .gitignore //create gitignore file to ignore particular file in staging area to add command(Local Repository)
+-->filename.txt//.gitignore file in filename to ignore it 
+-->*.exe //.gitignore file in .exe file is ignore
+-->git clone "URL"//URL is from github http link
+-->git branch newbranchname//create new branch name as newbranchname
+-->git branch //to show all branch *branch is current working branch
+-->git checkout branchname//branchname to change current working branch before add all commit all file  in master than switched to change current working branch to new branch after reuse this command to change branch than this branch changes is reflect 
+
+
+
+
+
